@@ -24,6 +24,11 @@ while True:
       feelings_list.append("tired")
       encouragement_list.append("come on you can do it persevere for a litte more :)")
       counter += 1
+      
+    if each_word == "ded":
+      feelings_list.append("ded")
+      encouragement_list.append("It's okay, we all feel ded someday. It will get better soon")
+      counter += 1
 
   if counter == 0:
     
